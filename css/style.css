@@ -138,4 +138,12 @@ section {
   top: 200px;
   right: 20px;
   width: 40px;
+  z-index: 1;
+}
+
+#social a {
+  background: yellow;
+  display: block;
+  width: 40px;
+  height: 40px;
 }
