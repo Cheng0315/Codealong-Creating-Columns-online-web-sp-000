@@ -97,14 +97,6 @@ figcaption {
   background: #ccc;
 }
 
-[class*="col-"] {
-  margin-left: 2%;
-}
-
-.first {
-  margin-left: 0%;
-}
-
 .clearfix:after {
   content: ".";
   display: block;
@@ -112,5 +104,12 @@ figcaption {
   visibility: hidden;
   height: 0;
   line-height: 0;
+}
 
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
 }
